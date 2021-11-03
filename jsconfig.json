@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@constants": [
+                "./src/constants"
+            ],
+            "@components": [
+                "./src/components"
+            ],
+            "@screens": [
+                "./src/screens"
+            ]
+        }
+    },
+    "include": [
+        "src",
+        "jest/setup.js"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

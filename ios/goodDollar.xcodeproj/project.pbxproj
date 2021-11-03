@@ -14,6 +14,7 @@
 		249CDFB3C4A3B4C3E9B6F3E7 /* libPods-goodDollar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B55A147CFB7600AEAC6046A5 /* libPods-goodDollar.a */; };
 		7D38DE0CCF8CD41CE0E8D9AB /* libPods-goodDollar-goodDollarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA326AE7FC326DAB1735E006 /* libPods-goodDollar-goodDollarTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		1F3F259F673C4BF8A79C21D8 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF171F104E374600AF41ABF1 /* Roboto-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B55A147CFB7600AEAC6046A5 /* libPods-goodDollar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-goodDollar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA326AE7FC326DAB1735E006 /* libPods-goodDollar-goodDollarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-goodDollar-goodDollarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EF171F104E374600AF41ABF1 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				2929F8EEE53B5027F61EC511 /* Pods */,
+				0036685AFCE44FD68873A69C /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -148,6 +151,15 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		0036685AFCE44FD68873A69C /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				EF171F104E374600AF41ABF1 /* Roboto-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -245,6 +257,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1F3F259F673C4BF8A79C21D8 /* Roboto-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
