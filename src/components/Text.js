@@ -7,8 +7,8 @@ export default Text = memo(props => {
         variant = "body", children,
         color, fontWeight = "normal",
         fontSize = 16, lineHeight = 19,
-        spacing = undefined,
-        align = "center", style, ...rest
+        spacing = 0, decoration = "none",
+        align = "left", style, ...rest
     } = props;
     return (
         <StyledText
@@ -18,6 +18,7 @@ export default Text = memo(props => {
             align={align}
             spacing={spacing}
             fontSize={fontSize}
+            decoration={decoration}
             lineHeight={lineHeight}
             fontWeight={fontWeight}
             {...rest}
@@ -29,10 +30,11 @@ export default Text = memo(props => {
 
 const StyledText = styled.Text`
     fontWeight: ${props => props.fontWeight};
-    fontFamily: 'Roboto-Regular';
+    fontFamily: ${props => props.fontWeight === 'normal' ? 'Roboto-Regular' : 'Roboto-bold'};
     textAlign: ${props => props.align};
     fontSize:${props => props.fontSize}px;
     lineHeight:${props => props.lineHeight}px;
     color: ${props => props.color || COLORS.TEXT_PRIMARY};
-    letterSpacing: ${props => props.spacing ? `${props.spacing}px` : props.spacing};
+    letterSpacing: ${props => props.spacing}px;
+    textDecorationLine: ${props => props.decoration};
 `;

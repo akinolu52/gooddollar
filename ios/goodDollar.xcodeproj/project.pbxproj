@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* goodDollarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* goodDollarTests.m */; };
+		0D630BEBD16C47EF9BD6CE1D /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BBC96FA96A44E1E95642ABD /* Roboto-Bold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1F3F259F673C4BF8A79C21D8 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF171F104E374600AF41ABF1 /* Roboto-Regular.ttf */; };
 		249CDFB3C4A3B4C3E9B6F3E7 /* libPods-goodDollar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B55A147CFB7600AEAC6046A5 /* libPods-goodDollar.a */; };
 		7D38DE0CCF8CD41CE0E8D9AB /* libPods-goodDollar-goodDollarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA326AE7FC326DAB1735E006 /* libPods-goodDollar-goodDollarTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		1F3F259F673C4BF8A79C21D8 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF171F104E374600AF41ABF1 /* Roboto-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = goodDollar/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = goodDollar/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = goodDollar/main.m; sourceTree = "<group>"; };
+		1BBC96FA96A44E1E95642ABD /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		5EE45B83106E57ADE622B394 /* Pods-goodDollar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goodDollar.release.xcconfig"; path = "Target Support Files/Pods-goodDollar/Pods-goodDollar.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = goodDollar/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		827A22C580BBF9EAD391E02D /* Pods-goodDollar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goodDollar.debug.xcconfig"; path = "Target Support Files/Pods-goodDollar/Pods-goodDollar.debug.xcconfig"; sourceTree = "<group>"; };
@@ -45,7 +47,7 @@
 		B55A147CFB7600AEAC6046A5 /* libPods-goodDollar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-goodDollar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA326AE7FC326DAB1735E006 /* libPods-goodDollar-goodDollarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-goodDollar-goodDollarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		EF171F104E374600AF41ABF1 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EF171F104E374600AF41ABF1 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0036685AFCE44FD68873A69C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF171F104E374600AF41ABF1 /* Roboto-Regular.ttf */,
+				1BBC96FA96A44E1E95642ABD /* Roboto-Bold.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		00E356EF1AD99517003FC87E /* goodDollarTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,15 +163,6 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
-		};
-		0036685AFCE44FD68873A69C /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				EF171F104E374600AF41ABF1 /* Roboto-Regular.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -258,6 +261,7 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				1F3F259F673C4BF8A79C21D8 /* Roboto-Regular.ttf in Resources */,
+				0D630BEBD16C47EF9BD6CE1D /* Roboto-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
